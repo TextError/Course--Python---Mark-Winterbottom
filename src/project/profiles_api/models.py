@@ -33,8 +33,8 @@ class UserProfileManager(BaseUserManager):
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
   """Represents a 'user profile' inside our system."""
-  email = models.EmailFields(max_lenght=255, unique=True)
-  name = models.CharField(max_lenght=255)
+  email = models.EmailField(max_length=255, unique=True)
+  name = models.CharField(max_length=255)
   is_active = models.BooleanField(default=True)
   is_staff = models.BooleanField(default=False)
 

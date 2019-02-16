@@ -43,7 +43,11 @@ settings.py INSTALLED_APPS = ['profile_api']
 # Test if work
 crome: http://127.0.0.1:8080/
 
+# Make migration
+[npm]: python manage.py makemigrations
 
+# Create DB table
+[npm]: python manage.py migrate
 
 
 
