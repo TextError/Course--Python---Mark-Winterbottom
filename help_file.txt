@@ -1,0 +1,23 @@
+# Tools
+~ Vagrant
+https://www.vagrantup.com/
+~ VirtualBox
+https://www.virtualbox.org/
+~ ModHeader
+chrome web store - extension -
+
+
+# Create Vagrant file
+[npm]: vagrant init
+
+# Start server
+[npm]: vagrant up
+
+# Connect to vagrant server
+[npm]: vagrant ssh
+
+# Disconnet & connect to server
+[npm]: exit  &  [npm]: vagrant up || vagrant ssh
+
+# Create Venv
+[npm]: mkvirtualenv venv --python=python3
