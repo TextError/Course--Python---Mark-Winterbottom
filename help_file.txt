@@ -33,3 +33,12 @@ chrome web store - extension -
 
 # Create App
 [npm]: python manage.py startapp profiles_api
+
+# Add new App
+settings.py INSTALLED_APPS = ['profile_api']
+
+# Run server
+[npm]: python manage.py runserver 0.0.0.0:8080
+
+# Test if work
+crome: http://127.0.0.1:8080/
