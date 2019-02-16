@@ -21,3 +21,15 @@ chrome web store - extension -
 
 # Create Venv
 [npm]: mkvirtualenv venv --python=python3
+~ Exit & Enter Venv
+[npm]: deactivate  &   [npm]: workon (name of venv)
+
+# Packages
+[npm]: pip install django==1.11
+[npm]: pip install djangorestframework==3.6.2
+
+# Create Django project
+[npm]: django-admin.py startproject project
+
+# Create App
+[npm]: python manage.py startapp profiles_api
