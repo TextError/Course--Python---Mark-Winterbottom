@@ -42,3 +42,14 @@ settings.py INSTALLED_APPS = ['profile_api']
 
 # Test if work
 crome: http://127.0.0.1:8080/
+
+
+
+
+
+# vscode pylint Error
+"python.pythonPath": "C:\\Users\\Raul & Vicky\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
