@@ -49,6 +49,11 @@ crome: http://127.0.0.1:8080/
 # Create DB table
 [npm]: python manage.py migrate
 
+# Create SuperUser
+[npm]: python manage.py createsuperuser
+
+
+
 
 
 # vscode pylint Error
